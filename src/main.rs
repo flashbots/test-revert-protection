@@ -17,6 +17,7 @@ use serde::{Deserialize, Serialize};
 #[command(author, version, about, long_about = None)]
 struct Args {
     /// Private key for signing transactions
+    /// By default it uses a testnet private key used in Anvil/Reth.
     #[arg(
         long,
         default_value = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
