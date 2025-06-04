@@ -4665,6 +4665,7 @@ name = "test-revert-protection"
 version = "0.1.0"
 dependencies = [
  "alloy",
+ "alloy-serde",
  "clap",
  "eyre",
  "futures-util",
